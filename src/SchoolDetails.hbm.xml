@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.springorm.entity.SchoolDetails" table="school_details">
+	
+		<id name="school_code" column="school_code" ></id>
+		
+		<property name="district" column="district" ></property>
+		
+		<property name="area" column="area" ></property>
+		
+		<property name="school_Name" column="school_name" ></property>
+		
+		<property name="telephone" column="telephone" ></property>
+		
+		<property name="fax" column="fax_number" ></property>
+		
+		<property name="address" column="address" ></property>
+		
+		<property name="email_Id" column="email_id" ></property>
+
+	</class>
+</hibernate-mapping>
